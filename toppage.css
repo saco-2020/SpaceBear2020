@@ -1,0 +1,36 @@
+/* header {
+  width: 650px;
+}
+
+.title h1{
+  padding: 15px;
+  margin:0 auto;
+} */
+
+.btn{
+  height :80px;
+  wight :400px;
+  color: black;
+  display: inline-block;
+  border-radius: 10px;
+  margin:0 auto;
+}
+.observe{
+  background-color: #;
+  
+}
+
+.collection{
+  /* padding : 12px 12px; */
+}
+
+.container {
+  width: 227px;
+  /* padding: ; */
+  margin:0 auto;
+}
+
+/* .top-wrapper{
+  padding-top:180px;
+  padding-bottom:100px
+} */

@@ -1,0 +1,10 @@
+.a-enter-vr-button {
+  display: none;
+}
+
+#back-button {
+  position: absolute;
+  display: block;
+  top: 10px;
+  left: 10px
+}

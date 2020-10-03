@@ -1,24 +1,28 @@
-body {
+.top-wrapper {
   background-image:url(img/17059380485_9591f7a136_k_2.jpg);
   background-size:cover;
 }
 
 .title{
   padding-top:20px;
-  /*padding-left: auto;
-  padding-right: auto; */
   padding-bottom: 20px;
   margin:0 auto;
   color:#08EDF8;
   font-size:60px;
   background-color: rgba(0, 0, 0, 0.4);
   height: 100px;
+  width:100%;
 }
 .title h1{
   line-height: 100px;
 }
 .comment{
-    font-size: 20px;
+    font-size: 35px;
+    margin:70px auto 60px auto;
+    background-color: rgba(255,255,255,0.1);
+    height:70px;
+    width:100%;
+    line-height: 70px;
 }
 .btnnn{
   text-align: center;
@@ -26,21 +30,34 @@ body {
 
 
 .btn{
-  height :100px;
-  width :400px;
-  color: ;
-  background-color:#08F8BF;
+  height :70px;
+  width :100%;
+  color: #08EDF8;
+  background-color:rgba(0, 0, 0, 0.4);
   display: inline-block;
-  border-radius: 10px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  border-radius: 70px;
   text-align: center;
+  font-size:40px;
+  line-height:70px;
 }
-
+.observe{
+  margin:100px auto 50px auto;
+}
+.collection{
+  margin-bottom:100px;
+}
 
 .container {
   width: 100%;
   text-align: center;
   margin:0 auto;
+}
+
+.footer{
+  background-color:#000;
+  color:white;
+  font-size:20px;
+  margin :0 auto;
+  height:80px;
+  line-height:80px;
 }

@@ -11,8 +11,14 @@ if(value == 1){
     iridium_on()
 }
 
-console.log(getCookie('collection'));
+var collectionStr = getCookie('collection');
+var collection = collectionStr.split(',');
+collection = collection.filter(Boolean); // 空データ除去
 
+for (var i=0; i<collection.length; ++i) {
+  var id = collection[i];
+  console.log('ID ' + id + ' の何か処理');
+}
 
 function getCookie(key) {
   var cookieStr = document.cookie;

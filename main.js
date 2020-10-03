@@ -17,12 +17,12 @@ console.log(getCookie('collection'));
 function getCookie(key) {
   var cookieStr = document.cookie;
 
-  // ƒNƒGƒŠ‚ª‚È‚¢ê‡‚Í‹ó‚ÌƒIƒuƒWƒFƒNƒg‚ğ•Ô‚·
+  // ã‚¯ã‚¨ãƒªãŒãªã„å ´åˆã¯ç©ºã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’è¿”ã™
   if (!cookieStr) {
     return "";
   }
 
-  // ƒNƒGƒŠ•¶š—ñ‚ğ & ‚Å•ªŠ„‚µ‚Äˆ—
+  // ã‚¯ã‚¨ãƒªæ–‡å­—åˆ—ã‚’ & ã§åˆ†å‰²ã—ã¦å‡¦ç†
   var cookies = cookieStr.split(';');
   
   for (var i=0; cookies.length; ++i) {

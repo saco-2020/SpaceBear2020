@@ -23,6 +23,7 @@ body {
   padding: 20px;
 }
 
-.iridium_on{
-  background-image: "img/Iridium114_satellite.jpg";
+.collection-image{
+  width:250px;
+  height:250px;
 }

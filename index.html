@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ja" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Cache-Control" content="no-cache">
     <link rel ="stylesheet" href = "toppage.css?<?php echo date('Ymd-Hi'); ?>">
     <title>トップページ</title>
-    <script src="save_query.js"></script>
+    <script src="save_query.js?<?php echo date('Ymd-Hi'); ?>"></script>
     
   </head>
   <body>
@@ -29,7 +29,7 @@
      </div>
     </div>
     <footer>
-      <h1 class = "footer"></h1>
+      <h1 class = "footer"><a href="javascript:void(0)" onclick="deleteCollection()">コレクションを削除する</a></h1>
     </footer>
   </body>
 </html>

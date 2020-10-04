@@ -1,9 +1,12 @@
 AFRAME.registerComponent('clickable', {
   init: function () {
     this.el.addEventListener('mouseup', function (evt) {
-      alert(this.getAttribute('satellite_name') + 'を見つけました！');
       addCollection(this.getAttribute('satellite_id'));
       console.log(document.cookie);
+
+      var message = this.getAttribute('satellite_name') + 'を見つけました！';
+      document.getElementById('dialog_wrapper').style.display = 'block';
+      document.getElementById('dialog_message').innerHTML = message;
     });
   }
 });

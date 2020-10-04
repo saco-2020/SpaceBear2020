@@ -6,6 +6,7 @@ collection = collection.filter(Boolean); // 空データ除去
 for (var i=0; i<collection.length; ++i) {
   var id = collection[i];
   console.log('ID ' + id + ' の何か処理');
+  image_on(id)
 }
 
 function getCookie(key) {

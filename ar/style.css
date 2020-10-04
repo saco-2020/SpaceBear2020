@@ -8,3 +8,38 @@
   top: 10px;
   left: 10px
 }
+
+.btn {
+  height :40px;
+  width: 60px;
+  line-height: 40px;
+  color: #fff;
+  background-color:#08b;
+  display: inline-block;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#dialog_wrapper {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+
+#dialog {
+  padding: 20px;
+  width: 80%;
+  max-width: 360px;
+  margin: 50px auto 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+#dialog img {
+  width: 90%;
+}

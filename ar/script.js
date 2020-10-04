@@ -14,3 +14,10 @@ window.onload = function() {
     alert('iOS で動かない場合はカメラの許可を試してみてください。\nSorry, If it doesn\'t work on iOS, try camera permissions.');
   }
 };
+
+function deleteCollection() {
+  if (confirm('コレクションを削除しますか？')) {
+    document.cookie = "collection=; max-age=0";
+    alert('コレクションを削除しました')
+  }
+}

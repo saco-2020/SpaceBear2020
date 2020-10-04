@@ -1,16 +1,4 @@
 'use strict';
-
-let param =location.search
-let value= param.slice(-1)
-console.log(value)
-function iridium_on(){
-    $(".iridium").attr("src","img/Iridium114_satellite.jpg")
-}
-
-if(value == 1){
-    iridium_on()
-}
-
 var collectionStr = getCookie('collection');
 var collection = collectionStr.split(',');
 collection = collection.filter(Boolean); // 空データ除去
@@ -41,3 +29,10 @@ function getCookie(key) {
 
   return "";
 }
+
+
+
+function image_on(id){
+    $(".collection-image:eq("+id+")").attr("src","img/Satellite"+id+".jpg")
+}
+

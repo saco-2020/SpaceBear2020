@@ -34,6 +34,6 @@ function getCookie(key) {
 
 
 function image_on(id){
-    $(".collection-image:eq("+id+")").attr("src","img/Satellite"+id+".jpg")
+    $(".collection-image:eq("+(id-1)+")").attr("src","img/Satellite"+id+".jpg")
 }
 

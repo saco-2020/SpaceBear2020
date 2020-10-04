@@ -59,6 +59,10 @@ body {
   background-color:#000;
   margin :0 auto;
   height:200px;
+  color:#000;
+}
+.footer a {
+  color:#000;
 }
 .header{
   background-color:#000;

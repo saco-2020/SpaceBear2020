@@ -26,3 +26,10 @@ function getUrlQueries() {
 
   return queries;
 }
+
+function deleteCollection() {
+  if (confirm('コレクションを削除しますか？')) {
+    document.cookie = "collection=; max-age=0";
+    alert('コレクションを削除しました')
+  }
+}

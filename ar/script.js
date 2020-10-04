@@ -11,6 +11,6 @@ window.onload = function() {
   const isIOS = /iP(hone|(o|a)d)/.test(navigator.userAgent)
 
   if (isIOS) {
-    alert('iOS はジャイロが動いていません、ごめんなさい。\nSorry, cannot work by iOS.');
+    alert('iOS で動かない場合はカメラの許可を試してみてください。\nSorry, If it doesn\'t work on iOS, try camera permissions.');
   }
 };

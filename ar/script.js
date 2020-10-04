@@ -6,3 +6,11 @@ function moveTop() {
 function closeDialog() {
   document.getElementById('dialog_wrapper').style.display = 'none';
 }
+
+window.onload = function() {
+  const isIOS = /iP(hone|(o|a)d)/.test(navigator.userAgent)
+
+  if (isIOS) {
+    alert('iOS で動かない場合はカメラの許可を試してみてください。\nSorry, If it doesn\'t work on iOS, try camera permissions.');
+  }
+};

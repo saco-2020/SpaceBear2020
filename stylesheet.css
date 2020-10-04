@@ -11,13 +11,30 @@ body {
   background-color: #26d0c9;
   color: #fff;
   height: 90px;
+  display:flex;
+  justify-content:center;
+  position: relative;
+}
+
+.return-btn{
+  position: absolute;
+  left:0;
+  margin:10px 30px;
+  color:#02ccba;
+  background-color:White;
+  font-size:24px;
+  border-radius: 8px;
+  padding:16px 32px;
+
 }
 
 .header-logo {
-  float: left;
   font-size: 36px;
   padding: 20px 40px;
+  /* width:100%; */
+  text-align: center;
 }
+
 
 .button {
   padding: 20px;
@@ -26,4 +43,19 @@ body {
 .collection-image{
   width:250px;
   height:250px;
+}
+
+.collection-area{
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+.collection-row{
+  display:flex;
+  justify-content: center;
+}
+
+.collection-item{
+  margin:20px;
+  text-align:center;
 }
